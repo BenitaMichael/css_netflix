@@ -1,0 +1,292 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+/* Intro Section */
+
+.intro{
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(images/homepage.jpg);
+    background-position: center;
+    background-size:cover;
+}
+
+.top{
+    display:flex;
+    justify-content:space-between;
+    padding: 30px;
+    margin: 20px 40px 0 40px;
+}
+
+img{
+    width:150px;
+}
+
+button{
+    background-color: #e50914;
+    border: none;
+    border-radius: 7px;
+    width:100px;
+    height:35px;
+    margin-left: 70%;
+}
+
+button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+button a:hover{
+    text-decoration: none;
+}
+
+.textnform{
+    position: relative;
+    top:14%;
+    color: #fff;
+    text-align: center;
+}
+
+h1, h2{
+    font-weight: 550;
+    letter-spacing: 0;
+}
+ h1{
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-bottom: 15px;
+ }
+
+ h2{
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+ }
+
+ p{
+    font-size: 1.2rem;
+    font-weight:400;
+    margin-bottom: 15px;
+ }
+
+ input[type=email]{
+    width:500px;
+    padding: 16px;
+    font-size: 1.1rem;
+ }
+
+ input[type=button]{
+    width:200px;
+    padding: 15px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color:#fff;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+ }
+
+ input[type=button]:hover{
+    background-color: #da012d;
+ }
+
+hr{
+  height:10px;
+  background-color:#1c1c1c;
+  border: #1c1c1c;
+}
+
+/* Tv display section */
+.tv-display{
+    display:flex;
+    justify-content: space-around;
+    background-color: black;
+    color:#fff;
+    height:70vh;
+}
+
+.tv img{
+    margin-top: 4%;
+    width:520px;
+    height:auto;
+    position: relative;
+    z-index: 1;
+}
+
+video{
+    position:absolute;
+    right:10.5%;
+    width: 385px;
+    height:415px;
+}
+
+.text{
+    margin: 11% 0 0 4%;
+}
+
+.text h1, .shows-text h1, .watch h1, .children h1{
+    font-size: 3rem;
+}
+
+.text p, .shows-text p, .children p{
+    font-size: 1.6rem;
+    margin-top: 5%;
+    line-height: 30px;
+}
+
+.shows{
+    display:flex;
+    justify-content: space-around;
+    background-color: black;
+    color:#fff;
+    height:60vh;
+}
+
+.shows img{
+    width:500px;
+    height: 380px;
+    margin-top: 2%;
+}
+
+.shows-text{
+    margin:10% 10% 0 0;
+}
+
+.phone{
+    position: relative;
+}
+
+.boxshot{
+    display: flex;
+    align-items: center;
+    width:320px;
+    height:90px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #000;
+    position: absolute;
+    top:68%;
+    left:18%;
+}
+
+.boxshot img{
+    margin-left: 5%;
+    width:65px;
+    height:80px;
+}
+
+.boxshot-text{
+    margin-left: 5%;
+}
+
+h5{
+    color:#0047ab;
+}
+
+.watch{
+    height:35vh;
+    background-color: black;
+    color:#fff;
+    padding: 3% 0 0 10%;
+}
+.watch p{
+    font-size: 1.6rem;
+    line-height: 30px;
+}
+.children{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color:#fff;
+    height:75vh;
+}
+
+.children-text{
+    margin-right: 100px;
+}
+
+.children img{
+    width:500px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.summary-box{
+    height:140vh;
+    color:#fff;
+    background-color: #000;
+}
+
+.summary-box h1{
+    padding: 5% 0 0 0;
+    text-align: center;
+}
+.summary{
+    margin: 3% 20%;
+}
+
+.summary p{
+    width:100%;
+    background-color: #1c1c1c;
+    font-size: 1.6rem;
+    padding: 15px;
+    line-height: 35px;
+}
+summary{
+    width: 100%;
+    background-color: #1c1c1c;
+    border:1px black;
+    font-size: 2rem;
+    padding: 15px;
+    margin-bottom:-30px;
+}
+.p{
+    text-align: center;
+    margin-top: 6%;
+}
+
+.form{
+    margin-left: 23%;
+}
+
+footer{
+    background-color: #000;
+    height: 45vh;
+}
+.up-links{
+    text-decoration: none;
+    padding-top: 5%;
+    margin-left: 10%;
+}
+.up-links a{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color:#333;
+    text-decoration: none;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 15% 0 5%
+}
+
+.one a{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #333;
+    line-height: 30px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.one a:hover{
+    text-decoration: underline;
+}
