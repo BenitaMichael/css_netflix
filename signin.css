@@ -69,6 +69,10 @@ label{
     color:#808080;
 }
 
+.learn{
+    margin-left: 15%;
+}
+
 .check:hover{
     text-decoration: underline;
 }
@@ -112,6 +116,11 @@ footer{
     margin-bottom: 0;
 }
 
+hr{
+    border-color: #808080;
+    visibility: hidden;
+}
+
 footer a{
     color: #808080;
     font-size: 1rem;
@@ -133,4 +142,46 @@ footer a:hover{
     justify-content: space-around;
     align-content: center;
 
+}
+
+@media only screen and (max-width:500px){
+    body{
+        background-image: none;
+        background-color: black;
+        overflow-x: hidden;
+    }
+    img{
+        margin-left: 20px;
+    }
+
+    .form{
+        width:125%;
+        margin-top: -10%;
+        margin-left: -10%;
+    }
+
+    label, .check{
+        font-size: 14px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+    .check{
+        margin-left: 45%;
+    }
+
+    .learn{
+        margin-left: 12%;
+    }
+
+    footer{
+        margin-top: -100px;
+        display: block;
+        height:35vh;
+    }
+
+    hr{
+        visibility: visible;
+    }
 }
